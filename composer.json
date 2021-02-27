@@ -1,0 +1,28 @@
+{
+    "name": "tuliovgomes/laravel-jadlog",
+    "description": "Pacote laravel para integrar com a jadlog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Túlio Gomes",
+            "email": "tulio.vieira@grupokpg.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2",
+        "laravel/framework": "^5.8",
+        "guzzlehttp/guzzle": "^7.2",
+        "nesbot/carbon": "^2.45"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tuliovgomes\\LaravelJadlog\\": "src"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.34"
+        }
+    }
+}
